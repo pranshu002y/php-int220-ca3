@@ -1,0 +1,195 @@
+body 
+{
+    background-image: url("hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ nav 
+ {
+     display: flex;
+     width: 100%;
+     height: fit-content;
+     background-color: cyan;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .menu 
+ {
+     display: flex;
+     list-style-type: none;
+ }
+
+ a 
+ {
+     margin-left: 30px;
+     text-decoration: none;
+     color: #000;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 20px;
+
+ }
+
+ .menu li a:hover 
+ {
+     background-color: chartreuse;
+     
+
+ }
+
+ .logo 
+ {
+     color: black;
+
+     font-family: cursive;
+ }
+
+ .en 
+ {
+     margin-right: 20px;
+     color: black;
+
+ }
+
+ h1 
+ {
+ 
+     
+     color: black;
+  
+     margin-top: 40px;
+     margin-left: 500px;
+     
+    }
+
+ .con 
+ {
+     margin-top: 20px;
+
+     background-image: url("Iphone-X-HD.jpg");
+     background-position: center;
+     border-top: 1px solid ;
+     width: fit-content;
+     height: 600px;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+
+ }
+
+ .box 
+ {
+     margin-top: 200px;
+
+ 
+     margin-left: 600px;
+     height: 500px;
+     width: 700px;
+     
+ }
+
+ .p 
+ {
+     font-family: cursive;
+     font-size: 40px; 
+     margin-left: 30px;
+ }
+
+ .info
+ {
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    left: -15%;
+    top: -20%;  
+    
+    
+  
+
+     
+     
+ }
+ .x{
+    top: 35%;
+     right: 10%;
+     position: absolute;
+ }
+ button{
+     margin-left: 550px;
+     font-size: 30px;
+     background: none;
+     border: none;
+     color: blanchedalmond;
+ }
+
+ .cir
+ {
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    top: 2%;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+ }
+
+    .feature img{
+        width: 70px;
+    }
+    .feature{
+        position: absolute;
+        display: flex;
+       
+    }
+    .one{
+     
+        margin-left: 300px;
+        margin-top: 30px;
+        transform: rotate(270deg);
+    
+    }
+    .two
+    {
+        margin-top: 300px;
+        margin-left: 30px;
+        transform: rotate(180deg);
+    }
+    .three{
+     
+        margin-left: 300px;
+        margin-top: 650px;
+        transform: rotate(90deg);
+    
+    }
+    .four
+    {
+        margin-top: 370px;
+        margin-left: 600px;
+    }
+    .mob
+    {
+      
+        position: absolute;
+        height:280px;
+        width: 120px;
+        left: 40%;
+        top: 40%;
+       
+        z-index: 1;
+    }  
+
+    .overlay
+    {
+        width: 0;
+        height: 0;
+        border-top: 400px solid rgb(6, 5, 7);
+        border-bottom: 500px solid  rgb(6, 5, 7);
+        border-right: 400px solid transparent;
+        border-left: 400px solid  rgb(6, 5, 7);
+    }
+
+ 
